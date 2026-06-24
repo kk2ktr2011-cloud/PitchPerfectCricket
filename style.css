@@ -1,18 +1,29 @@
-.link {
-    text-decoration: none;
-    color: black;
-    text-align: center;
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: rgb(181 186 208);
+  color: #222;
 }
 
-.link:hover {
-    text-decoration: underline;
-}
-
-.navBar {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgb(65, 103, 136);
   color: black;
   padding: 15px 30px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
